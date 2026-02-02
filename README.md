@@ -29,15 +29,15 @@ Project Structure
 lib/
 ├─ app/
 │  ├─ bindings/
-│  │  └─ collection_binding.dart    
+│  └─ collection_binding.dart    
 │  ├─ controllers/
-│  │  └─ collection_controller.dart  
+│  └─ collection_controller.dart  
 │  ├─ models/
-│  │  └─ collection_model.dart       
+│  └─ collection_model.dart       
 │  ├─ views/
-│  │  └─ collection_screen.dart      
+│  └─ collection_screen.dart      
 │  └─ widgets/
-│     └─ collection_card.dart         
+│  └─ collection_card.dart         
 ├─ main.dart                    
 
 Approach
