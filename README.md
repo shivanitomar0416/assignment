@@ -25,10 +25,20 @@ Images include placeholders and error handling
 Only one card can be expanded at a time
 
 
-Screenshot
-![assignment](https://github.com/user-attachments/assets/bcc542df-1033-4ac2-a36d-9dc6a91b00d3)
-
-
+Project Structure
+lib/
+├─ app/
+│  ├─ bindings/
+│  │  └─ collection_binding.dart    
+│  ├─ controllers/
+│  │  └─ collection_controller.dart  
+│  ├─ models/
+│  │  └─ collection_model.dart       
+│  ├─ views/
+│  │  └─ collection_screen.dart      
+│  └─ widgets/
+│     └─ collection_card.dart         
+├─ main.dart                    
 
 Approach
 
@@ -52,5 +62,10 @@ Images include loading placeholders and error handling for better user experienc
 Scalability
 
 Supports any number of collections and images.
+
+Screenshot
+![assignment](https://github.com/user-attachments/assets/bcc542df-1033-4ac2-a36d-9dc6a91b00d3)
+
+
 
 >>>>>>> 34862c5428d170f9205515dec7d5deca81ebc445
